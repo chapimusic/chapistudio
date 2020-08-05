@@ -1,24 +1,25 @@
 export default {
-  title: 'Image with caption',
-  name: 'imageWithCaption',
-  type: 'image',
+  title: "Image with caption",
+  name: "imageWithCaption",
+  type: "image",
   options: {
-    hotspot: true // <-- Defaults to false
+    hotspot: true, // <-- Defaults to false
   },
   fields: [
     {
-      name: 'caption',
-      type: 'string',
-      title: 'Caption',
+      name: "caption",
+      type: "string",
+      title: "Caption",
       options: {
-        isHighlighted: true // <-- make this field easily accessible
-      }
+        isHighlighted: true, // <-- make this field easily accessible
+      },
+      validation: (Rule) => Rule.required(),
     },
     {
       // Editing this field will be hidden behind an "Edit"-button
-      name: 'attribution',
-      type: 'string',
-      title: 'Attribution',
-    }
-  ]
-}
+      name: "attribution",
+      type: "string",
+      title: "Attribution",
+    },
+  ],
+};
