@@ -13,7 +13,7 @@ export default {
       options: {
         isHighlighted: true, // <-- make this field easily accessible
       },
-      validation: (Rule) => Rule.required(),
+      //validation: (Rule) => Rule.required(),
     },
     {
       // Editing this field will be hidden behind an "Edit"-button

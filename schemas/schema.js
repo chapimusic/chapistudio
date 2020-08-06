@@ -6,11 +6,12 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // Documents types
 import concert from "./documents/concert";
-import spectacle from "./documents/spectacle";
+import installation from "./documents/installation";
 import post from "./documents/post";
 import product from "./documents/product";
 import release from "./documents/release";
 import siteSettings from "./documents/siteSettings";
+import spectacle from "./documents/spectacle";
 
 // Object types
 import image from "./objects/image";
@@ -32,9 +33,10 @@ export default createSchema({
     video,
 
     // Documents
+    post,
     concert,
     spectacle,
-    post,
+    installation,
     product,
     release,
     siteSettings,

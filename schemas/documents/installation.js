@@ -1,7 +1,7 @@
 export default {
-  name: "spectacle",
+  name: "installation",
   type: "document",
-  title: "Spectacles",
+  title: "Installations",
   fields: [
     {
       name: "title",
@@ -9,22 +9,14 @@ export default {
       type: "string",
     },
     {
-      name: "slug",
-      title: "Slug",
-      description: "Cliquez sur 'Generate' pour créer automatiquement le slug",
-      type: "slug",
-      validation: (Rule) => Rule.required(),
-      options: {
-        source: "title",
-        maxLength: 96,
-      },
-    },
-    {
-      name: "vimeoVideo",
-      title: "Vidéo Vimeo",
-      description:
-        "Indiquer l'URL de la vidéo (ex: https://vimeo.com/63651329)",
-      type: "string",
+      name: "images",
+      title: "Images",
+      type: "array",
+      of: [
+        {
+          type: "imageWithCaption",
+        },
+      ],
     },
     {
       name: "body",
