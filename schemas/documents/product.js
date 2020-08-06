@@ -52,6 +52,12 @@ export default {
       type: "price",
     },
     {
+      name: "paypalButtonId",
+      title: "ID du bouton PayPal",
+      type: "string",
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: "body",
       title: "Contenu",
       type: "portableText",
