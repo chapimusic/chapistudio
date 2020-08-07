@@ -1,7 +1,7 @@
 export default {
     name: 'concert',
     type: 'document',
-    title: 'Concerts',
+    title: 'Agenda',
     __experimental_actions: [
         //'create',
         'update',

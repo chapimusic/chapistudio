@@ -15,7 +15,7 @@ export default () =>
             S.divider(),
 
             S.listItem()
-                .title('Concerts')
+                .title('Agenda')
                 .child(
                     S.document()
                         .schemaType('concert')
