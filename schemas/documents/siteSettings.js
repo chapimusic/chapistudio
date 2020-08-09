@@ -20,6 +20,11 @@ export default {
       title: "URL",
     },
     {
+      name: "mail",
+      type: "string",
+      title: "Mail",
+    },
+    {
       name: "description",
       type: "text",
       title: "Description",
@@ -50,19 +55,19 @@ export default {
     {
       name: "youtube",
       type: "string",
-      title: "Facebook",
+      title: "YouTube",
       description: "username",
     },
     {
       name: "twitter",
       type: "string",
-      title: "Facebook",
+      title: "Twitter",
       description: "username",
     },
     {
       name: "spotify",
       type: "string",
-      title: "Facebook",
+      title: "Spotify",
       description: "username",
     },
   ],
