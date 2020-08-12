@@ -79,7 +79,7 @@ export default {
       return {
         title,
         media,
-        subtitle: `/product/${slug.current}/`,
+        subtitle: `/boutique/${slug.current}/`,
       };
     },
   },
