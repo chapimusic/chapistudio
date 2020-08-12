@@ -16,6 +16,7 @@ import spectacle from "./documents/spectacle";
 // Object types
 import image from "./objects/image";
 import portableText from "./objects/portableText";
+import paypalButtons from "./objects/paypalButtons";
 import price from "./objects/price";
 import video from "./objects/video";
 
@@ -29,6 +30,7 @@ export default createSchema({
     // Objects
     image,
     portableText,
+    paypalButtons,
     price,
     video,
 

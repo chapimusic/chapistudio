@@ -14,6 +14,12 @@ export default {
       type: "string",
     },
     {
+      name: "description",
+      title: "Description",
+      description: "Description courte",
+      type: "string",
+    },
+    {
       name: "slug",
       title: "Slug",
       description: "Cliquez sur 'Generate' pour créer automatiquement le slug",
@@ -25,15 +31,10 @@ export default {
       },
     },
     {
-      name: "releases",
-      title: "Album(s) lié(s)",
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          to: { type: "release" },
-        },
-      ],
+      name: "release",
+      title: "Album lié",
+      type: "reference",
+      to: { type: "release" },
     },
     {
       name: "images",
@@ -52,9 +53,9 @@ export default {
       type: "price",
     },
     {
-      name: "paypalButtonId",
-      title: "ID du bouton PayPal",
-      type: "string",
+      name: "paypalButtons",
+      title: "IDs des boutons Paypal",
+      type: "paypalButtons",
       validation: (Rule) => Rule.required(),
     },
     {
@@ -64,7 +65,7 @@ export default {
     },
     {
       name: "publishedAt",
-      title: "Date de publication / réalisation",
+      title: "Date de sortie",
       type: "date",
     },
   ],
