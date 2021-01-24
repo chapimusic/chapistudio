@@ -17,7 +17,7 @@ export default {
       name: "description",
       title: "Description",
       description: "Description courte",
-      type: "string",
+      type: "portableText",
     },
     {
       name: "slug",
