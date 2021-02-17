@@ -12,6 +12,7 @@ import product from "./documents/product";
 import release from "./documents/release";
 import siteSettings from "./documents/siteSettings";
 import spectacle from "./documents/spectacle";
+import videos from "./documents/videos";
 
 // Object types
 import image from "./objects/image";
@@ -41,6 +42,7 @@ export default createSchema({
     installation,
     product,
     release,
+    videos,
     siteSettings,
   ]),
 });
