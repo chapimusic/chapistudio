@@ -13,6 +13,7 @@ import release from "./documents/release";
 import siteSettings from "./documents/siteSettings";
 import spectacle from "./documents/spectacle";
 import videos from "./documents/videos";
+import photo from "./documents/photo";
 
 // Object types
 import image from "./objects/image";
@@ -43,6 +44,7 @@ export default createSchema({
     product,
     release,
     videos,
+    photo,
     siteSettings,
   ]),
 });

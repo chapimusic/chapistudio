@@ -65,7 +65,7 @@ export default {
                 media,
                 subtitle: publishedAt
                     ? `/${dateSegment}/${slug.current}/`
-                    : 'Date de publication / réalisation manquant'
+                    : 'Date de publication / réalisation manquante'
             }
         }
     },
