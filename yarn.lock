@@ -1146,7 +1146,7 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.1.2.tgz#d6b4b875bee4189cb56f274a7fb5494174463cb2"
 
-"@sanity/base@2.10.2", "@sanity/base@^2.10.0":
+"@sanity/base@2.10.2", "@sanity/base@^2.10.2":
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.10.2.tgz#3a34598b8c255d5bc403dcb87d57feb7c0e18e81"
   integrity sha512-8zFTiwkf/c/fO3TdweQIDcA4TVocnZTYDhfx7BoCGdIgMF1tGFyZSXO4vhMRfzLX4g/KCkO3cqBvs/Ui1Gk/6A==
@@ -1266,7 +1266,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/components/-/components-2.2.6.tgz#d1d6d1017a53ebb413ef026eabd5dd0b4a1bcdad"
   integrity sha512-KK+6eJgrgHEd9Hq+LbRamdAI64cNXYoVn/f/Dn3ES1GA55AvQyKQUay4T/zZ1yEITKSyIZgETQjpAl/Hg+72eQ==
 
-"@sanity/core@^2.10.0":
+"@sanity/core@^2.10.2":
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.10.2.tgz#7937f4b4a95a262bf3e32f6727cc4b30d1847d4f"
   integrity sha512-CJyflu7NZmgxELPRCGTVO1QNOjrbQBX72d2irfPeYziwxwT/ToYgHCZPm3iG2SdjzY/cBtrvwxjPSaiHhigKpg==
@@ -1357,7 +1357,7 @@
     "@sanity/generate-help-url" "2.2.6"
     lodash "^4.17.15"
 
-"@sanity/default-layout@^2.10.0":
+"@sanity/default-layout@^2.10.2":
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-2.10.2.tgz#e601536a0793853a59222e61c3534038da9f09f0"
   integrity sha512-HuqU/CDdlF+m5EmmS6FjOPafG5a579L/b8hJKpZhdCeDNsjcbgJi83o0oC7aWkRDERNmFrOiSa9rM8iZDVnl6w==
@@ -1386,7 +1386,7 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@^2.10.1":
+"@sanity/desk-tool@^2.10.2":
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.10.2.tgz#f8310a92a2ac0a2f5cbb2ac140fea75472dd5727"
   integrity sha512-fp4NtNW8uGceiV8anODzzCM4D2HKFyz18jTBVsnVg00lEgrFeIKEnoZ3vSgwF0Ua3aehhVRMLEKY43euWj5Qcg==
@@ -3397,10 +3397,10 @@ date-fns@^2.16.1:
   version "2.16.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
 
-date-fns@^2.21.1:
-  version "2.21.2"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.21.2.tgz#9db92305cf00626e9122e56c72195b17725594aa"
-  integrity sha512-FMkG7pIPx64mGIpS2LOb3Wp3O606H/hatoiz7G0oiYWai1izdM4tF1dd7QABv2NogkIDI4wxsfLLFQSuVvDHgA==
+date-fns@^2.21.3:
+  version "2.21.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.21.3.tgz#8f5f6889d7a96bbcc1f0ea50239b397a83357f9b"
+  integrity sha512-HeYdzCaFflc1i4tGbj7JKMjM4cKGYoyxwcIIkHzNgCkX8xXDNJDZXgDDVchIWpN4eQc3lH37WarduXFZJOtxfw==
 
 date-now@1.0.1:
   version "1.0.1"
@@ -7045,7 +7045,8 @@ querystring@0.2.0, querystring@^0.2.0:
 
 querystringify@^2.1.1:
   version "2.2.0"
-  resolved "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -7512,7 +7513,8 @@ require-uncached@^1.0.3:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-bin@^0.4.0:
   version "0.4.0"
@@ -8573,8 +8575,9 @@ url-join@^2.0.2:
   resolved "https://registry.npmjs.org/url-join/-/url-join-2.0.5.tgz#5af22f18c052a000a48d7b82c5e9c2e2feeda728"
 
 url-parse@^1.1.9, url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.npmjs.org/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
