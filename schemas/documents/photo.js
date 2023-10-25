@@ -30,7 +30,7 @@ export default {
     preview: {
     select: {
       title: "title",
-        media: 'images.0'
+        media: 'images.0.asset'
     },
     prepare({ title = "Sans titre", media }) {
       return {

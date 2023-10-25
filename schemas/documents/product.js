@@ -73,7 +73,7 @@ export default {
     select: {
       title: "title",
       slug: "slug",
-      media: "images.0",
+      media: "images.0.asset",
     },
     prepare({ title = "Sans titre", slug = {}, media }) {
       return {

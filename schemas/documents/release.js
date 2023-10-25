@@ -55,7 +55,7 @@ export default {
       title: "title",
       publishedAt: "publishedAt",
       slug: "slug",
-      media: "images.0",
+      media: "images.0.asset",
     },
     prepare({
       title = "Sans titre",
