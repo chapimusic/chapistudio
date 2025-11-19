@@ -16,15 +16,15 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/dashboard": "^3.1.5",
-    "@sanity/vision": "^3.18.1",
-    "date-fns": "^2.30.0",
+    "@sanity/dashboard": "^5.0.0",
+    "@sanity/vision": "^4.16.0",
+    "date-fns": "^4.1.0",
     "node-fetch": "^3.3.2",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sanity": "^3.18.1",
-    "sanity-plugin-vercel-deploy": "^3.3.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sanity": "^4.16.0",
+    "sanity-plugin-vercel-deploy": "^4.0.0",
     "styled-components": "^6.1.0"
   },
   "repository": {
@@ -32,6 +32,6 @@
     "url": "https://github.com/chapimusic/chapistudio.git"
   },
   "devDependencies": {
-    "@sanity/cli": "^3.18.1"
+    "@sanity/cli": "^4.16.0"
   }
 }
